@@ -1,0 +1,148 @@
+*
+{
+    margin: 0;
+    height: 0;
+}
+body{
+     width: 100%;
+     height:100vh;
+     background-color: rgb(21, 21, 41);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+}
+
+.main
+{  
+     position: relative;
+    width: 350px;
+    height: 450px;
+    /* background-color: rgb(56, 56, 116); */
+    background: linear-gradient(30deg,black,rgb(29, 108, 122)
+    );
+    border: 2px solid rgba(9, 4, 11, 0.63);
+    border-radius: 35px;
+    margin: 5px;
+    padding: 2px;
+    }
+.nav
+{     width: 88%;
+     height: 50px;
+     border-radius: 35px;
+     margin: 22.5px;
+      padding: 1px;
+     background-color: white;
+     display: flex;
+     justify-content: space-around;
+     align-items: center;
+}
+
+
+.search
+{     width: 75%;
+    height: 50px;
+    border-radius: 35px;
+    margin: 5px;
+    padding: 1px;
+     background-color: white;
+     font-size: 1rem;
+     display: flex;
+     align-items: center;
+}
+input
+{   
+     width: 75%;
+     height: 30px;
+     font-size: 1rem;
+     border: transparent;
+     outline: none;
+    
+}
+.sch
+{   width: 12%;
+     height: 40px;
+      margin: 5px;
+      border-radius: 15px;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      background-color: rgb(23, 25, 35);
+     padding:2px;
+}
+button{
+    width: 100%;
+    height: 40px;
+     margin: 5px;
+     border-radius: 15px;
+     display: flex;
+     justify-content: center;
+     align-items:center;
+     outline: none;
+     border: hidden;
+     background-color: rgb(23, 25, 35);
+    padding:2px;
+
+
+}
+#img1
+{
+     width: 20px;
+     height: 23px;
+} 
+.weather-img
+{
+     display: flex;
+     justify-content: center;
+     margin: 3px;
+     margin-bottom: 3px;
+}
+#img2
+{    width: 150px;
+     height: 150px;
+}
+.temp
+{
+    width: 100%;
+    height: 20px;
+    display:flex;
+    flex-direction: column;
+    gap:55px;
+    align-items: center;
+    margin-top:140px;
+    font-size: 3rem;
+    color: white;
+}
+#p2
+{
+    font-size: 1.9rem;
+    color: white;
+}
+.win
+{
+     width: 100%;
+     height: 20px;
+     display: flex;
+     justify-content:space-around ;
+     padding: 1px;
+     margin: 1px;
+     margin-bottom: 1rem;
+     margin-top: 120px;
+     color: white;
+     font-size: 1.1rem;
+}
+#win
+{   
+     width: 40px;
+     height: 40px;
+  
+}
+.pp
+{   margin-left:5px;
+    display: flex;
+    flex-direction: column;
+    gap: 8 px;
+
+}
+
+
